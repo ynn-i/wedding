@@ -31,7 +31,7 @@ export default {
           to: { transform: "translateX(100%)" },
         },
         "shape-shift": {
-          "0%": { transform: "scale(0.2)" },
+          "0%": { transform: "scale(0.05)" },
           "100%": { transform: "scale(1)" },
         },
       },

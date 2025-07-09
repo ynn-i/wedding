@@ -22,15 +22,15 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative w-full h-[60vh] flex flex-col items-center justify-center text-white overflow-hidden">
+    <section className="relative w-screen h-screen flex flex-col items-center justify-center text-white overflow-hidden">
       {/* Tailwind purge 방지용 더미 div */}
       <div className="hidden animate-shape-shift"></div>
       <div
         ref={containerRef}
         className="absolute left-1/2 top-1/2 z-0 rounded-xl shadow-lg overflow-hidden animate-shape-shift"
         style={{
-          width: "100vw",
-          height: "60vh",
+          width: "120px",
+          height: "80px",
           transform: "translate(-50%, -50%)",
         }}
       >
