@@ -1,3 +1,5 @@
+@import './reset.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Pretendard+Variable:wght@400..900&display=swap');
 
 @tailwind base;
