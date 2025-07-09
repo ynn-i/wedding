@@ -27,10 +27,10 @@ export default function HeroSection() {
       <div className="hidden animate-shape-shift"></div>
       <div
         ref={containerRef}
-        className="absolute left-1/2 top-1/2 z-0 rounded-xl shadow-lg overflow-hidden animate-shape-shift"
+        className="absolute left-1/2 top-1/2 z-0 overflow-hidden animate-shape-shift"
         style={{
-          width: "120px",
-          height: "80px",
+          width: "100vw",
+          height: "100vh",
           transform: "translate(-50%, -50%)",
         }}
       >
